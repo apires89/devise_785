@@ -15,6 +15,9 @@
   <body>
     <%= render "shared/navbar" %>
     <%= render 'shared/flashes' %>
-    <%= yield %>
+    <div class="container min-height-page">
+      <%= yield %>
+    </div>
+    <%= render "shared/footer" %>
   </body>
 </html>
